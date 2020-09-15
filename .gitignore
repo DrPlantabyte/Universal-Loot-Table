@@ -1,6 +1,7 @@
 build/*
 run/*
 output/*
+out/*
 dist/*
 #
 .idea/*
