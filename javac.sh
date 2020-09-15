@@ -1,6 +1,6 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-rm -rvf build/*
+rm -rf build/*
 ERRORS=0
 for MODULE in $(ls modules); do
 	echo -e "\n\nCompiling $MODULE..."
